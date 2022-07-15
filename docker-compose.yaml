@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: easypy
+    command: "./.docker/entrypoint.sh"
+    volumes:
+      - .:/home/python/app
+
