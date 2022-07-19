@@ -1,0 +1,6 @@
+__pypackages__/
+.pytest_cache/
+.history/
+.docker/zsh/.zsh_history
+.coverage
+__coverage
