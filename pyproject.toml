@@ -7,6 +7,11 @@ authors = [
 ]
 dependencies = [
     "pandas>=1.4.3",
+    "influxdb-client>=1.31.0",
+    "datetime>=4.5",
+    "influxdb>=5.3.1",
+    "mysql-connector-python>=8.0.30",
+    "reactivex>=4.0.4",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
